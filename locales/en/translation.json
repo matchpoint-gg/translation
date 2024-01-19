@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "Matchpoint.gg"
+  },
+  "test": {
+    "game": "Game...",
+    "soon": "Coming soon...",
+    "about-us": "About us..."
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "games": "Games",
+    "profile": "Profile",
+    "favorites": "Favorites",
+    "about-us": "About Us"
+  },
+  "game": {
+    "queue": {
+      "join": "Join {{mode}} Queue",
+      "leave": "Leave {{mode}} Queue"
+    },
+    "select": {
+      "label": "Select a game",
+      "soon": "More games coming soon."
+    },
+    "metric": {
+      "players": "Players",
+      "matches": "Matches Played",
+      "live": "Online"
+    },
+    "leaderboards": {
+      "tab": "Leaderboards",
+      "headers":{
+        "name": "Name",
+        "wins": "W",
+        "losses": "L", 
+        "rating": "Rating",
+        "rank": "Rank",
+        "character": "Character",
+        "win-pct": "Win %",
+        "pick-pct": "Pick %"
+      }
+    },
+    "matches": {
+      "tab": "Matches"
+    }
+  },
+  "queue": {
+    "generic-title": "Queue",
+    "exit": "Cancel",
+    "resume": "Resume",
+    "view": "View",
+    "accept": "Accept",
+    "reject": "Decline",
+    "rating-range": "Rating Range",
+    "flags": "Flags",
+    "match-found": "Match found!",
+    "waiting-opponent": "Waiting for opponent",
+    "searching": "Looking for match",
+    "in-progress": "Match in progress",
+    "paused": "Match was opened on another browser or device"
+  },
+  "matchmaking": {
+    "best-of": "Best of {{count}}",
+    "round": "Round",
+    "waiting-for-opponent": "Waiting for opponent",
+    "select-winner": "Select Winner",
+    "select-character": "Select {{character}}", 
+    "top-characters": "Top Characters",
+    "generic-title": "Matchmaking",
+    "opponent-left": "{{name}} has left the match.",
+    "cancel": "Cancel",
+    "abandon": "Abandon Match",
+    "abandon-title": "Abandon Match",
+    "abandon-body": "Are you sure you want to abandon this match? It will be reported as a loss and your rating will be affected.",
+    "dispute": "Dispute",
+    "dispute-title": "Dispute Match",
+    "dispute-body": "Are you sure you want to dispute this match? A discord channel will be created and you will be required to provide evidence within {{hours}} hours.",
+    "dispute-placeholder": "Please enter your reason for filing a dispute...",
+    "steps": {
+      "blindCharacterPick": "Blind Pick",
+      "p1BanStage": "Ban 1 Stage",
+      "p2BanStage": "Ban 2 Stages",
+      "p1PickStage": "Select Stage",
+      "playRound": "Play",
+      "winnerCharacterPick": "Select Character",
+      "loserCharacterPick": "Select Character",
+      "winnerBanStage": "Ban 3 Stages",
+      "loserPickStage": "Select Stage",
+      "matchEnd": "Final"
+    },
+    "connection": {
+      "connected": "Connected!",
+      "connecting": "Disconnected. Attempting to reconnect...",
+      "disconnected": "Disconnected."
+    },
+    "chat": {
+      "placeholder": "Enter chat here.",
+      "opponent-typing": "{{name}} is typing"
+    },
+    "system":{
+      "conflict": "Both players did not report the same winner. Please submit again.",
+      "mii-fighter-disclosure": "A Mii Fighter has been chosen, please disclose your moveset.",
+      "opponent-abandon": "Your opponent has abandoned the match. You will be recorded as the winner."
+    },
+    "dispute-match":{
+      "resolved": "The match dispute has been resolved. ",
+      "match-disputed": "The match has been disputed.",
+      "rating-not-adjusted": "Your ratings have not been adjusted.",
+      "instructions": "Instructions",
+      "new-channel": "You will see a new channel that you are in under the 'Open Disputes' category.",
+      "post-evidence": "Post any evidence you may have to assist the moderators in making a ruling.",
+      "ruling-note": "Note: Rulings may not be decided quickly, please be patient.",
+      "evidence": "You have <strong>1 HOUR</strong> to provide evidence in your favor.",
+      "_join": "Join our discord server <1><2 href=\"https://discord.gg/6H9wjkzQK3\" target=\"_new\">by clicking here</2></1>",
+      "join": "Join our discord server  <strong><1>by clicking here</1></strong>"
+      
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "profile": "Profile",
+      "favorites": "Favorites",
+      "about-us": "About Us",
+      "test": "Test"
+    },
+    "search": {
+      "placeholder": "Search for player...",
+      "empty": "Who do you want to search for?",
+      "searching": "Searching for {{searchTerm}}"
+    },
+    "account": {
+      "signIn": "Sign in with Discord",
+      "signOut": "Sign out"
+    }
+  },
+  "flags": {
+    "delay-mod": "Delay Mod",
+    "ethernet": "Ethernet",
+    "wifi": "Wifi"
+  }
+}
